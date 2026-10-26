@@ -417,8 +417,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 20722,
-      "sha256": "60c7a8be87fb179b04801b5370d8ecf9aabbd78bcf907268c655426e0c23e077"
+      "bytes": 20195,
+      "sha256": "6fec31a6ffa23350ea891cccaeeada22df14e02bd7dd83aed831d2b078c493c0"
     },
     {
       "path": "official_site_case-data.js",
