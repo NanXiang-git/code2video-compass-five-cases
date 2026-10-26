@@ -1,0 +1,125 @@
+{
+  "construction_complexity": "C1",
+  "dependency_span": "S2",
+  "dynamic_complexity": "D2",
+  "events": [
+    "Claude policy prompt typing",
+    "Claude tool search and card reveal",
+    "Verde knowledge base inspection",
+    "ChatGPT customer inquiry query",
+    "Cursor automated code diff execution",
+    "Connected AI ecosystem outro"
+  ],
+  "global_description": "A product workflow and promotional video demonstrates Verde as a unified organizational memory layer that synchronizes a refund policy update across Claude, the Verde knowledge base, ChatGPT, and Cursor.",
+  "keyclip_end_s": 26.75,
+  "keyclip_start_s": 21.75,
+  "motion_types": [
+    "Translation",
+    "Reveal",
+    "State Update",
+    "Layout Transformation"
+  ],
+  "prompt": "A dynamic product showcase demonstrates how Verde seamlessly propagates updated company knowledge into developer workflows and conversational AI.\n\nPrior to the reference clip, the demo begins in Claude, where Maya types: 'We just agreed: annual plans get a 30-day refund window, not 14. Save it to Verde for the team.' Claude invokes Verde, marks the prior 14-day document superseded, and displays an embedded policy card. Clicking this card opens the Verde knowledge base ('getverde.ai/t/northwind') in dark mode, showing the document 'Annual plans have a 30-day refund window' with 'Published' and 'Current' tags, complete policy text, and a supersession log. Next, ChatGPT opens and receives the customer scenario question: 'A customer on an annual plan wants a refund three weeks in. Can we do that?'. ChatGPT references Verde's updated document and explains that three weeks is valid because the old 14-day limit was superseded.\n\nDuring the reference clip, a dark Cursor editor window is featured with 'faq.ts' visible on the left and Cursor Composer on the right. The user prompt reads: 'Make the pricing FAQ match our refund policy.' The system processes 'Searching Verde...', identifies 'Verde 30-day refund window', and proceeds with 'Editing faq.ts...'. In the code window, the line \"a: 'Yes, within 14 days of purchase.',\" turns red with a minus indicator, and directly beneath it, \"a: 'Yes, within 30 days of purchase or renewal.',\" appears highlighted in green with a plus indicator. Composer displays a file delta tag 'faq.ts +1 -1' and writes the completion message: 'Updated the refund answer to 30 days, matching the current policy in Verde.'\n\nAfter the reference clip, the editor dissolves into a dark fluted background. A glowing green Verde emblem sits at the center, flanked by Claude and ChatGPT on the left, and Cursor and 'Any MCP client' on the right. Glowing dotted data streams pulse horizontally through Verde between the tools, while the slogan 'One memory. Every AI tool.' fades in below the diagram before the video gently fades to black.",
+  "qa": [
+    {
+      "dimension": "Content.Text",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the concluding headline displayed with the exact text 'One memory. Every AI tool.'?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Content.Information",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the code edit in 'faq.ts' update the refund timeframe from 14 days to 30 days?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Look",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the central Verde emblem glow in green in the final overview scene?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.Frame",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the Verde emblem positioned centrally with AI client icons arranged horizontally to its left and right in the final scene?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Spatial",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Are the Claude and ChatGPT icons placed to the left of the Verde emblem in the final diagram?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Logical",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Are the surrounding AI tool icons connected directly to the central Verde emblem via dotted conduits?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Motion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Do the green dotted lines connecting the tools to Verde pulse during the final scene?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Interaction",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does submitting the request in Cursor Composer trigger the automated editing of 'faq.ts'?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Transformation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "In 'faq.ts', is the 14-day policy line replaced by the 30-day policy line using red deletion and green addition highlighting?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.TemporalRelation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the Cursor code-editing sequence take place after the ChatGPT interaction sequence?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "InlineDiffIndicators",
+      "question": "Does the Cursor Composer show the user prompt “Make the pricing FAQ match our refund policy.”?",
+      "section": "ReferenceClipSpecific"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "ComposerStatusProgression",
+      "question": "Does the Cursor Composer sidebar progressively display status indicators for searching Verde, editing 'faq.ts', and confirming the 30-day update?",
+      "section": "ReferenceClipSpecific"
+    }
+  ],
+  "reference_clip_summary": "The clip shows the Cursor IDE executing an automated code change driven by Verde: the user prompts Composer to update the FAQ, the AI references Verde's 30-day policy, and updates faq.ts with real-time red/green diff line replacement.",
+  "reference_url": "https://x.com/DJAdkison/status/2104020177478394122",
+  "sample_id": "C2VC-0410",
+  "subjects": [
+    "Graphic"
+  ],
+  "subtypes": [
+    "Product & Service Promotion",
+    "UI & Product Workflow Demo"
+  ],
+  "task": "v2v",
+  "task_id": "C2VC-0410-v2v",
+  "video_categories": [
+    "Branding & Promotional Motion",
+    "UI & Product Motion"
+  ]
+}

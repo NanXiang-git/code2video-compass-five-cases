@@ -1,0 +1,682 @@
+[
+  {
+    "construction_complexity": "C2",
+    "dependency_span": "S3",
+    "dynamic_complexity": "D2",
+    "events": [
+      "Falling raindrop reflection",
+      "Droplet aerodynamic blueprint",
+      "Pond ripple impact",
+      "Xylem transport schematic",
+      "Tree sap ascent",
+      "Leaf stomata blueprint",
+      "Transpiration and cloud formation",
+      "Thundercloud electrical charge blueprint",
+      "Lightning storm and rainfall",
+      "River drainage basin schematic",
+      "Aerial river outflow to ocean",
+      "Ocean depth and solar schematic",
+      "Sea surface evaporation",
+      "Molecular evaporation blueprint",
+      "Cloud condensation zoom",
+      "Single droplet blueprint finale"
+    ],
+    "global_description": "A dual-aesthetic motion graphic tracking the journey of a single water droplet through the complete hydrological cycle, alternating between textured pictorial illustrations and technical blueprint schematics.",
+    "keyclip_end_s": 16.5,
+    "keyclip_start_s": 12.0,
+    "motion_types": [
+      "Translation",
+      "Scale",
+      "Reveal",
+      "Deformation",
+      "State Update",
+      "Viewport Motion"
+    ],
+    "prompt": "An educational motion graphic animation illustrating the continuous journey of water through nature, alternating between warm-toned hand-drawn illustrations and intricate navy blueprint schematics, matching the dynamic rhythm and visual styling demonstrated in the reference clip.\n\nBefore the reference clip, the animation establishes the droplet's initial descent and plant uptake. A falling raindrop reflecting an upside-down landscape transitions into an aerodynamic droplet blueprint, followed by a raindrop splash producing ripples in a lily pond. These ripples dissolve into a blueprint cross-section of tree xylem vessels that convey fluids upward. The fluid ascends into an illustrated tree trunk and canopy, followed by a blueprint revealing leaf vein distribution and stomatal pore regulation.\n\nThe animation then reproduces the sequence seen in the reference clip: an illustrated close-up of a leaf expelling moisture through dashed vertical arrows pulls back to reveal an expansive forest canopy. Above the trees, moisture condenses into a white cumulus cloud that rapidly builds vertically, its base darkening with falling rain. The screen transitions into a dark blue technical blueprint schematic of the cumulonimbus cloud, complete with detailed charge stratification (+ and - symbols), updraft vector arrows, rain shafts, and an electric field graph at the bottom. A sharp blueprint lightning bolt strikes downward toward a tree symbol, immediately cutting into a vivid pictorial illustration of a stormy landscape where a bright lightning strike illuminates a dark gray sky and hits a tree, with rain lashing across the field.\n\nFollowing the reference clip, a single droplet falling from the storm is tracked downward, dissolving into a blueprint watershed drainage network where glowing nodes pulse along converging stream channels. The camera transitions to a topographical pictorial map tracking the river as it empties into the ocean. An ocean blueprint highlights subsurface currents and solar exposure, leading to an illustrated seascape where evaporation arrows lift from the water at dawn. A molecular blueprint shows liquid H2O breaking into vapor under solar radiation, and the camera zooms through misty clouds to isolate a newly coalesced spherical droplet, finishing on a blueprint display centered around the droplet labeled 'one drop'.",
+    "qa": [
+      {
+        "dimension": "Content.Text",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the concluding blueprint display include the text 'one drop'?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Content.Information",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the blueprint schematic of the storm cloud indicate electrical charge distribution using positive (+) and negative (-) symbols?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Look",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the technical blueprint shown on a dark navy background?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.Frame",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the electric field potential graph positioned in the lower portion of the storm cloud blueprint frame?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.ColorGrading",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the visual presentation alternate between a warm pictorial color palette and a dark navy blueprint color scheme?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Logical",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the molecular blueprint show water molecules breaking away into vapor under solar radiation?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Motion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is there a water droplet shown visibly descending along its trajectory?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Interaction",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does a falling water droplet impact a pond surface to generate expanding concentric ripples?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Transformation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Do the concentric water ripples transition into a blueprint of tree xylem vessels?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.ViewportMotion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the camera zoom into the cloud formation to isolate a newly condensed spherical droplet?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.TemporalRelation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the blueprint lightning discharge occur immediately before cutting to a pictorial lightning strike in a stormy landscape?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Aesthetics.Style",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the animation alternate between a textured hand-drawn pictorial illustration style and a technical blueprint schematic style?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "TranspirationToStormSequence",
+        "question": "Does the sequence begin with leaf moisture transpiration zooming out over the forest canopy before coalescing into a storm cloud that begins raining?",
+        "section": "ReferenceClipSpecific"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "BlueprintToPictorialStrikeTransition",
+        "question": "Does the blueprint lightning discharge cut immediately to a full-screen pictorial lightning bolt striking a lone tree in a rain-swept field?",
+        "section": "ReferenceClipSpecific"
+      }
+    ],
+    "reference_clip_summary": "The reference clip demonstrates the alternating transition rhythm between pictorial illustration and scientific blueprint: starting with leaf transpiration into a storm cloud, transitioning to a blueprint cumulonimbus with charge dynamics and lightning discharge, and culminating in a pictorial lightning strike over a rural landscape.",
+    "reference_url": "https://x.com/aollivier82/status/2102498589259821559",
+    "sample_id": "C2VC-0234",
+    "subjects": [
+      "Graphic"
+    ],
+    "subtypes": [
+      "Concept & Mechanism Explanation",
+      "Structural & Relational Infographic"
+    ],
+    "task": "v2v",
+    "task_id": "C2VC-0234-v2v",
+    "video_categories": [
+      "Explainer Motion Graphics",
+      "Data & Infographic Animation"
+    ]
+  },
+  {
+    "construction_complexity": "C2",
+    "dependency_span": "S2",
+    "dynamic_complexity": "D2",
+    "events": [
+      "Title animation",
+      "Glass setup and recipe UI appear",
+      "Step 1: Adding ice cubes",
+      "Step 2: Pouring London dry gin",
+      "Step 3: Pouring Campari",
+      "Step 4: Pouring sweet vermouth",
+      "Step 5: Stirring cocktail with bar spoon",
+      "Step 6: Expressing orange peel garnish",
+      "Final presentation and recipe recap"
+    ],
+    "global_description": "A clean, 2D illustrated motion graphic presents a step-by-step procedural recipe for making a Negroni cocktail, sequencing through glass preparation, three measured pours, stirring, and garnishing alongside coordinated UI cards and a bottom timeline.",
+    "keyframe_timestamp_s": 13.5,
+    "motion_types": [
+      "Translation",
+      "Rotation",
+      "Reveal",
+      "State Update",
+      "Scale"
+    ],
+    "prompt": "An instructional 2D motion graphic with clean hand-drawn line art and a warm paper-like background demonstrates a Negroni cocktail recipe, matching the layout, typography, and visual assets shown in the reference image. The video starts before the reference scene: the title 'NEGRONI' drops into the top center letter by letter in bold coral letters, followed by 'a 30 second recipe' transitioning into 'equal parts · stirred · on the rocks'. The tumbler glass outline animates into existence on the left, a bottom stepper displays six stages ('ICE', 'GIN', 'CAMPARI', 'VERMOUTH', 'STIR', 'PEEL'), and a rounded recipe card appears on the right. For Step 1, three ice cubes fall into the glass as the card tracks 'FILL ICE' with a 3-part progress bar before node 1 receives a checkmark. In Step 2, a 'GIN london dry' bottle enters, tilts, and pours clear liquid up to the '1 oz' line while the card monitors '1 OZ GIN' to '1.0 / 1 oz', after which node 2 checks off.\n\nThe animation then progresses into the state depicted in the reference image for Step 3: the card shows 'STEP 3 OF 6', '1 OZ', 'CAMPARI', 'the bitter one · 30 ml', and an active progress bar at '0.4 / 1 oz'. The red Campari bottle tilts from the upper left, pouring a red liquid stream into the glass, raising the liquid level past the ice cubes toward the '2 oz' guide line. The pour completes, the bottle withdraws, and node 3 checks off. Next, Step 4 shows a dark 'ROSSO vermouth' bottle pouring sweet vermouth up to the '3 oz' level while the card tracks '1 OZ SWEET VERMOUTH', turning the cocktail deep ruby. In Step 5, a bar spoon enters and swirls the mixture side to side while a card counts down '20 sec STIR until nice and cold' before retracting. In Step 6, an orange peel twist descends, sprays tiny yellow oil droplets, and rests over the ice as the card marks 'ORANGE PEEL express the oils, drop it in'. The sequence concludes with all six bottom nodes checked and the right card displaying 'THAT'S A NEGRONI!', 'CIN CIN!', '1:1:1', and 'gin · campari · sweet vermouth' beside the completed drink.",
+    "qa": [
+      {
+        "dimension": "Content.Text",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the cocktail title displayed as 'NEGRONI' with the subtitle 'equal parts · stirred · on the rocks'?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Content.Information",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the bottom timeline display the six recipe steps labeled 'ICE', 'GIN', 'CAMPARI', 'VERMOUTH', 'STIR', and 'PEEL'?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Look",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the Campari bottle red?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Quantity",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Do exactly three ice cubes drop into the rocks glass during Step 1?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.Frame",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the rocks glass positioned on the left side of the frame while the recipe card is situated on the right side?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Spatial",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the six-step horizontal timeline positioned below the glass and the recipe card along the bottom of the frame?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Logical",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does each completed step correspond to its matching node on the bottom timeline changing into a checkmark?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Motion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does a bar spoon swirl inside the glass with side-to-side or oscillating motion during Step 5?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Interaction",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the orange peel release or spray droplet particles over the glass during Step 6?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Transformation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the recipe card dynamically update its displayed text and step number as each new stage begins?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.TemporalRelation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the Campari pouring step take place after the gin is poured and before the sweet vermouth is poured?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Aesthetics.Style",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the video maintain a 2D hand-drawn line-art motion graphic style throughout the animation?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "KeyframeStateRealization",
+        "question": "Does the generated scene matching the reference show the recipe card at Step 3 of 6?",
+        "section": "KeyframeSpecific"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "PreKeyframeProgression",
+        "question": "Does the video show ice dropping into the glass before the gin is poured?",
+        "section": "KeyframeSpecific"
+      }
+    ],
+    "reference_frame_summary": "The keyframe captures Step 3 in progress, showing the tilted Campari bottle pouring red liqueur into the rocks glass over ice cubes, the 2 oz guide line, the active step recipe card on the right, and the bottom progression bar.",
+    "reference_url": "https://x.com/Ror_Fly/status/2102853258582880547",
+    "sample_id": "C2VC-0504",
+    "subjects": [
+      "Graphic"
+    ],
+    "subtypes": [
+      "Process & Procedure Explanation"
+    ],
+    "task": "i2v",
+    "task_id": "C2VC-0504-i2v",
+    "video_categories": [
+      "Explainer Motion Graphics"
+    ]
+  },
+  {
+    "construction_complexity": "C3",
+    "dependency_span": "S2",
+    "dynamic_complexity": "D2",
+    "events": [
+      "Treble clef drawn by epicycles",
+      "Single circle generating a sine wave",
+      "Adding harmonic circles to form a square wave",
+      "Modifying harmonics to produce sawtooth and triangle waves",
+      "2D Fourier epicycles tracing a treble clef",
+      "Historical attribution to Joseph Fourier",
+      "Drawing a brand logo with epicycles",
+      "Returning to the treble clef visualization"
+    ],
+    "global_description": "The animation demonstrates Fourier epicycles by showing how rotating chained circles synthesize 1D periodic waveforms and complex 2D shapes, concluding with a tribute to Joseph Fourier and digital applications.",
+    "keyclip_end_s": 16.0,
+    "keyclip_start_s": 8.5,
+    "motion_types": [
+      "Rotation",
+      "Reveal",
+      "State Update",
+      "Deformation",
+      "Translation"
+    ],
+    "prompt": "Create an educational motion graphic animation explaining Fourier epicycles and wave synthesis, adopting the visual style, motion mechanics, and typographic hierarchy demonstrated in the reference clip. In the reference clip, set against a dark navy canvas, a chained epicycle assembly on the left sequentially adds smaller, faster-spinning circles from 2 up to 49 circles, projecting via a dashed horizontal guideline to transform an undulating wave on the right into a sharp square wave with visible Gibbs ringing, accompanied by the mathematical formula 'f(x) = 4/π (sin x + 1/3 sin 3x + 1/5 sin 5x + ...)' and sequential headers: 'Add a circle ⅓ the size, spinning 3x faster.', 'Then ⅕ the size, 5x faster...', 'Keep adding smaller, faster circles...', and '...and the wave turns square.'. Before this clip occurs, the video opens with a dynamic demonstration where a cluster of white epicycles traces a complete glowing golden treble clef under the title 'Only spinning circles drew this.'. The scene then introduces the 1D projection concept with just a single rotating circle under 'Start with one spinning circle.' and 'Track its height: a wave.', plotting a pure golden sine wave before transitioning into the sequence seen in the reference clip. Following the reference clip, add the final circle to reach 50, then modify the circle radii and harmonics to demonstrate other waveforms: it transitions into a sawtooth wave under 'Change the sizes: a sawtooth.' with the formula 'f(x) = 2/π (sin x - 1/2 sin 2x + 1/3 sin 3x - ...)', followed by a triangle wave under 'Or a triangle. Any wave at all.' with the formula 'f(x) = 8/π² (sin x - 1/9 sin 3x + 1/25 sin 5x - ...)'. The visual then transitions from 1D to 2D Fourier series under 'Now let the circles spin in 2D...' with the complex exponential formula 'z(t) = ∑ c_n e^{int}', chaining up to 301 circles that spin in the plane to trace the intricate treble clef. The video transitions to a circular portrait of Joseph Fourier with the text '1807: Joseph Fourier claims any wave is a sum of simple waves.' and 'Today his idea runs inside every MP3, JPEG and Wi-Fi signal.', then demonstrates epicycles drawing a cyan-green dual-triangle logo ('Even this logo: 301 circles.' / 'made with HyperFrames'), before concluding on the spinning epicycles drawing the golden treble clef under the title 'Only spinning circles drew this.'.",
+    "qa": [
+      {
+        "dimension": "Content.Text",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the on-screen text display the exact title '...and the wave turns square.' during the square wave synthesis?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Content.Information",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the numeric counter display '50 circles' when the square wave state is reached?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Look",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the traced waveform rendered in a golden yellow color?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.Frame",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the 1D wave synthesis arranged in a split composition with the rotating epicycles positioned on the left and the resulting wave on the right?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.ColorGrading",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the animation presented against a dark navy background throughout the sequence?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Spatial",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does a horizontal dashed guideline extend from the tip of the chained epicycles on the left to the leading point of the waveform on the right?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Motion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Do the chained epicycles rotate continuously while tracing out the waveform?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Transformation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the waveform visually transform from an undulating curve into a sharp square wave as additional circles are added?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.TemporalRelation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the demonstration of the sawtooth waveform occur after the square wave synthesis reaches its final state?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "PostClipContinuation",
+        "question": "Does the video continue seamlessly from the reference clip's final square wave state into the subsequent sawtooth and triangle wave variations?",
+        "section": "ReferenceClipSpecific"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "PreClipPrologueGeneration",
+        "question": "Does the video include the opening sequence prior to the reference clip where a cluster of epicycles traces an intricate golden treble clef?",
+        "section": "ReferenceClipSpecific"
+      }
+    ],
+    "reference_clip_summary": "This reference clip demonstrates the step-by-step 1D Fourier synthesis of a square wave, showing the progressive addition of odd harmonic epicycles from 2 to 49 circles as the output wave on the right deforms from a sine wave into a sharp square wave with Gibbs phenomenon, accompanied by the evolving Fourier series formula.",
+    "reference_url": "https://x.com/Miguel07Code/status/2103626582896091611",
+    "sample_id": "C2VC-0429",
+    "subjects": [
+      "Graphic"
+    ],
+    "subtypes": [
+      "Concept & Mechanism Explanation"
+    ],
+    "task": "v2v",
+    "task_id": "C2VC-0429-v2v",
+    "video_categories": [
+      "Explainer Motion Graphics"
+    ]
+  },
+  {
+    "construction_complexity": "C2",
+    "dependency_span": "S2",
+    "dynamic_complexity": "D2",
+    "events": [
+      "Tang and Qing Dougong scale comparison",
+      "Foguang Temple cantilever overhang analysis",
+      "Step-by-step Dougong component assembly",
+      "Structural load transmission and lever mechanism",
+      "Early historical evidence and search for Tang timber structures",
+      "Liang Sicheng and Lin Huiyin discover Foguang Temple",
+      "Liang Sicheng three-period architectural classification",
+      "Structural shift from load-bearing lever to decorative bracket",
+      "Eleven-building evolutionary timeline and proportion chart",
+      "Comparison to classical Greek order and final summary"
+    ],
+    "global_description": "An infographic architectural animation explaining the structural mechanics, component assembly, and historical evolution of Chinese traditional Dougong brackets from the Tang to Qing dynasties using architectural line drawings, diagrams, and historical timelines.",
+    "keyframe_timestamp_s": 52.5,
+    "motion_types": [
+      "Translation",
+      "Scale",
+      "Reveal",
+      "State Update",
+      "Layout Transformation",
+      "Viewport Motion"
+    ],
+    "prompt": "Create an architectural motion graphics video explaining the structural mechanism and historical evolution of Chinese traditional Dougong brackets, designed with a vintage sepia-toned parchment background and technical black line illustrations. The video begins by showing a cross-sectional technical drawing of the Tang Dynasty bracket from the East Main Hall of Foguang Temple, comparing its scale side-by-side with a Qing Dynasty bracket from the Forbidden City's Wenyuange. Dimension brackets highlight their dramatic size difference: the Tang bracket accounts for 1/2 of column height, while the Qing bracket is reduced to 1/5. The animation then analyzes the cantilever mechanics of Foguang Temple's 3.7-meter eave overhang, demonstrating that the Dougong carries the outer purlin nearly 2 meters beyond what simple rafters can support. Next, an isometric step-by-step assembly animates the components: the capital block '斗', transverse arm '拱', secondary blocks, successive outward layers ('跳'), and the diagonal cantilever timber '昂'. The video then settles into the exact visual state shown in the reference image: a detailed side-section schematic of the Tang Dougong at Foguang Temple (dated 857 on the upper dynasty timeline bar). A bold red lever line traces diagonally through the Ang, labeled '挑檐' at the elevated roof eave end, pivoting over a fulcrum labeled '支点', with the interior tail pinned firmly by the roof beam labeled '梁压昂尾', accompanied by the explanatory text '昂 斜置的长木' and bottom citations from the Yingzao Fashi. Following this explanation of the lever mechanism, the video moves chronologically to display early precedents in Han stone pillars and Northern Dynasty cave temples. It narrates Liang Sicheng and Lin Huiyin's 1937 field discovery in Mount Wutai where temple beam inscriptions verified the 857 AD construction date. Next, a three-stage stylistic chart compares '豪劲', '醇和', and '羁直' periods. Sectional diagrams of Qing construction illustrate how the beam head directly took over the load, flattening the Ang into a decorative carving and turning Dougong into dense decorative trim under the eaves. Isometric diagrams then explain the modular proportion systems ('材' in Song and '斗口' in Qing). A multi-building comparative chart plots eleven historical structures along a timeline, tracking the bracket-to-column ratio dropping from 1/2 to 1/5, before concluding with a comparison between the Chinese Dougong system and the Greek Doric order.",
+    "qa": [
+      {
+        "dimension": "Content.Text",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the label '梁压昂尾' displayed during the structural explanation of the bracket?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Content.Information",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the visual comparison indicate that the Tang bracket equals 1/2 of column height while the Qing bracket equals 1/5?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Look",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Are the architectural diagrams shown as line drawings?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Quantity",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the evolutionary timeline chart compare eleven historical buildings?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.Frame",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is a horizontal historical dynasty timeline bar positioned along the top edge of the frame?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.ColorGrading",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the video feature an aged, warm sepia parchment paper background tone?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Spatial",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the Dougong bracket cluster shown positioned directly atop the vertical timber column?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Logical",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the visual comparison juxtapose the Chinese bracket system with classical Greek architectural orders?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Motion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the bracket cluster assemble through sequential placement of its individual wooden components?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Interaction",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the structural diagram illustrate the interior roof beam pinning down the tail end of the Ang lever timber?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.TemporalRelation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the isometric assembly sequence occur prior to the cross-sectional lever force diagram?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Aesthetics.Style",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the animation maintain an architectural technical illustration style?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "KeyframeLeverState",
+        "question": "Does the video present the cross-sectional state showing the diagonal Ang timber highlighted in red with the label '梁压昂尾' matching the keyframe?",
+        "section": "KeyframeSpecific"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "TopTimelineMarker",
+        "question": "Does the timeline bar at the top feature a red triangle marker indicating the year 857 under the Sui-Tang dynasty section?",
+        "section": "KeyframeSpecific"
+      }
+    ],
+    "reference_frame_summary": "The frame shows a precise cross-sectional architectural drawing of a Tang Dynasty Dougong bracket set with red force and lever annotations highlighting the slanted 'Ang' cantilever beam as a structural lever.",
+    "reference_url": "https://www.rednote.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "sample_id": "C2VC-0035",
+    "subjects": [
+      "Graphic",
+      "Object"
+    ],
+    "subtypes": [
+      "Concept & Mechanism Explanation",
+      "Structural & Relational Infographic"
+    ],
+    "task": "i2v",
+    "task_id": "C2VC-0035-i2v",
+    "video_categories": [
+      "Explainer Motion Graphics",
+      "Data & Infographic Animation"
+    ]
+  },
+  {
+    "construction_complexity": "C1",
+    "dependency_span": "S2",
+    "dynamic_complexity": "D2",
+    "events": [
+      "Claude policy prompt typing",
+      "Claude tool search and card reveal",
+      "Verde knowledge base inspection",
+      "ChatGPT customer inquiry query",
+      "Cursor automated code diff execution",
+      "Connected AI ecosystem outro"
+    ],
+    "global_description": "A product workflow and promotional video demonstrates Verde as a unified organizational memory layer that synchronizes a refund policy update across Claude, the Verde knowledge base, ChatGPT, and Cursor.",
+    "keyclip_end_s": 26.75,
+    "keyclip_start_s": 21.75,
+    "motion_types": [
+      "Translation",
+      "Reveal",
+      "State Update",
+      "Layout Transformation"
+    ],
+    "prompt": "A dynamic product showcase demonstrates how Verde seamlessly propagates updated company knowledge into developer workflows and conversational AI.\n\nPrior to the reference clip, the demo begins in Claude, where Maya types: 'We just agreed: annual plans get a 30-day refund window, not 14. Save it to Verde for the team.' Claude invokes Verde, marks the prior 14-day document superseded, and displays an embedded policy card. Clicking this card opens the Verde knowledge base ('getverde.ai/t/northwind') in dark mode, showing the document 'Annual plans have a 30-day refund window' with 'Published' and 'Current' tags, complete policy text, and a supersession log. Next, ChatGPT opens and receives the customer scenario question: 'A customer on an annual plan wants a refund three weeks in. Can we do that?'. ChatGPT references Verde's updated document and explains that three weeks is valid because the old 14-day limit was superseded.\n\nDuring the reference clip, a dark Cursor editor window is featured with 'faq.ts' visible on the left and Cursor Composer on the right. The user prompt reads: 'Make the pricing FAQ match our refund policy.' The system processes 'Searching Verde...', identifies 'Verde 30-day refund window', and proceeds with 'Editing faq.ts...'. In the code window, the line \"a: 'Yes, within 14 days of purchase.',\" turns red with a minus indicator, and directly beneath it, \"a: 'Yes, within 30 days of purchase or renewal.',\" appears highlighted in green with a plus indicator. Composer displays a file delta tag 'faq.ts +1 -1' and writes the completion message: 'Updated the refund answer to 30 days, matching the current policy in Verde.'\n\nAfter the reference clip, the editor dissolves into a dark fluted background. A glowing green Verde emblem sits at the center, flanked by Claude and ChatGPT on the left, and Cursor and 'Any MCP client' on the right. Glowing dotted data streams pulse horizontally through Verde between the tools, while the slogan 'One memory. Every AI tool.' fades in below the diagram before the video gently fades to black.",
+    "qa": [
+      {
+        "dimension": "Content.Text",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the concluding headline displayed with the exact text 'One memory. Every AI tool.'?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Content.Information",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the code edit in 'faq.ts' update the refund timeframe from 14 days to 30 days?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Attribute.Look",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the central Verde emblem glow in green in the final overview scene?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Cinematography.Frame",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Is the Verde emblem positioned centrally with AI client icons arranged horizontally to its left and right in the final scene?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Spatial",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Are the Claude and ChatGPT icons placed to the left of the Verde emblem in the final diagram?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Relations.Logical",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Are the surrounding AI tool icons connected directly to the central Verde emblem via dotted conduits?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Motion",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Do the green dotted lines connecting the tools to Verde pulse during the final scene?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Interaction",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does submitting the request in Cursor Composer trigger the automated editing of 'faq.ts'?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.Transformation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "In 'faq.ts', is the 14-day policy line replaced by the 30-day policy line using red deletion and green addition highlighting?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": "Dynamics.TemporalRelation",
+        "expected_answer": "Yes",
+        "name": null,
+        "question": "Does the Cursor code-editing sequence take place after the ChatGPT interaction sequence?",
+        "section": "SharedChecklist"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "InlineDiffIndicators",
+        "question": "Does the Cursor Composer show the user prompt “Make the pricing FAQ match our refund policy.”?",
+        "section": "ReferenceClipSpecific"
+      },
+      {
+        "dimension": null,
+        "expected_answer": "Yes",
+        "name": "ComposerStatusProgression",
+        "question": "Does the Cursor Composer sidebar progressively display status indicators for searching Verde, editing 'faq.ts', and confirming the 30-day update?",
+        "section": "ReferenceClipSpecific"
+      }
+    ],
+    "reference_clip_summary": "The clip shows the Cursor IDE executing an automated code change driven by Verde: the user prompts Composer to update the FAQ, the AI references Verde's 30-day policy, and updates faq.ts with real-time red/green diff line replacement.",
+    "reference_url": "https://x.com/DJAdkison/status/2104020177478394122",
+    "sample_id": "C2VC-0410",
+    "subjects": [
+      "Graphic"
+    ],
+    "subtypes": [
+      "Product & Service Promotion",
+      "UI & Product Workflow Demo"
+    ],
+    "task": "v2v",
+    "task_id": "C2VC-0410-v2v",
+    "video_categories": [
+      "Branding & Promotional Motion",
+      "UI & Product Motion"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.rednote.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "http": 200,
+    "final_url": "https://www.rednote.com/discovery/item/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "length": 348497,
+    "has_initial_state": true,
+    "has_video_url": true
+  },
+  {
+    "url": "https://www.xiaohongshu.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "http": 200,
+    "final_url": "https://www.xiaohongshu.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "length": 66980,
+    "has_initial_state": true,
+    "has_video_url": true
+  },
+  {
+    "url": "https://www.xiaohongshu.com/discovery/item/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "http": 200,
+    "final_url": "https://www.xiaohongshu.com/discovery/item/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+    "length": 66981,
+    "has_initial_state": true,
+    "has_video_url": true
+  }
+]

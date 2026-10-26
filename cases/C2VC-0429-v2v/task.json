@@ -1,0 +1,119 @@
+{
+  "construction_complexity": "C3",
+  "dependency_span": "S2",
+  "dynamic_complexity": "D2",
+  "events": [
+    "Treble clef drawn by epicycles",
+    "Single circle generating a sine wave",
+    "Adding harmonic circles to form a square wave",
+    "Modifying harmonics to produce sawtooth and triangle waves",
+    "2D Fourier epicycles tracing a treble clef",
+    "Historical attribution to Joseph Fourier",
+    "Drawing a brand logo with epicycles",
+    "Returning to the treble clef visualization"
+  ],
+  "global_description": "The animation demonstrates Fourier epicycles by showing how rotating chained circles synthesize 1D periodic waveforms and complex 2D shapes, concluding with a tribute to Joseph Fourier and digital applications.",
+  "keyclip_end_s": 16.0,
+  "keyclip_start_s": 8.5,
+  "motion_types": [
+    "Rotation",
+    "Reveal",
+    "State Update",
+    "Deformation",
+    "Translation"
+  ],
+  "prompt": "Create an educational motion graphic animation explaining Fourier epicycles and wave synthesis, adopting the visual style, motion mechanics, and typographic hierarchy demonstrated in the reference clip. In the reference clip, set against a dark navy canvas, a chained epicycle assembly on the left sequentially adds smaller, faster-spinning circles from 2 up to 49 circles, projecting via a dashed horizontal guideline to transform an undulating wave on the right into a sharp square wave with visible Gibbs ringing, accompanied by the mathematical formula 'f(x) = 4/π (sin x + 1/3 sin 3x + 1/5 sin 5x + ...)' and sequential headers: 'Add a circle ⅓ the size, spinning 3x faster.', 'Then ⅕ the size, 5x faster...', 'Keep adding smaller, faster circles...', and '...and the wave turns square.'. Before this clip occurs, the video opens with a dynamic demonstration where a cluster of white epicycles traces a complete glowing golden treble clef under the title 'Only spinning circles drew this.'. The scene then introduces the 1D projection concept with just a single rotating circle under 'Start with one spinning circle.' and 'Track its height: a wave.', plotting a pure golden sine wave before transitioning into the sequence seen in the reference clip. Following the reference clip, add the final circle to reach 50, then modify the circle radii and harmonics to demonstrate other waveforms: it transitions into a sawtooth wave under 'Change the sizes: a sawtooth.' with the formula 'f(x) = 2/π (sin x - 1/2 sin 2x + 1/3 sin 3x - ...)', followed by a triangle wave under 'Or a triangle. Any wave at all.' with the formula 'f(x) = 8/π² (sin x - 1/9 sin 3x + 1/25 sin 5x - ...)'. The visual then transitions from 1D to 2D Fourier series under 'Now let the circles spin in 2D...' with the complex exponential formula 'z(t) = ∑ c_n e^{int}', chaining up to 301 circles that spin in the plane to trace the intricate treble clef. The video transitions to a circular portrait of Joseph Fourier with the text '1807: Joseph Fourier claims any wave is a sum of simple waves.' and 'Today his idea runs inside every MP3, JPEG and Wi-Fi signal.', then demonstrates epicycles drawing a cyan-green dual-triangle logo ('Even this logo: 301 circles.' / 'made with HyperFrames'), before concluding on the spinning epicycles drawing the golden treble clef under the title 'Only spinning circles drew this.'.",
+  "qa": [
+    {
+      "dimension": "Content.Text",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the on-screen text display the exact title '...and the wave turns square.' during the square wave synthesis?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Content.Information",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the numeric counter display '50 circles' when the square wave state is reached?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Look",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the traced waveform rendered in a golden yellow color?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.Frame",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the 1D wave synthesis arranged in a split composition with the rotating epicycles positioned on the left and the resulting wave on the right?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.ColorGrading",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the animation presented against a dark navy background throughout the sequence?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Spatial",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does a horizontal dashed guideline extend from the tip of the chained epicycles on the left to the leading point of the waveform on the right?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Motion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Do the chained epicycles rotate continuously while tracing out the waveform?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Transformation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the waveform visually transform from an undulating curve into a sharp square wave as additional circles are added?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.TemporalRelation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the demonstration of the sawtooth waveform occur after the square wave synthesis reaches its final state?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "PostClipContinuation",
+      "question": "Does the video continue seamlessly from the reference clip's final square wave state into the subsequent sawtooth and triangle wave variations?",
+      "section": "ReferenceClipSpecific"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "PreClipPrologueGeneration",
+      "question": "Does the video include the opening sequence prior to the reference clip where a cluster of epicycles traces an intricate golden treble clef?",
+      "section": "ReferenceClipSpecific"
+    }
+  ],
+  "reference_clip_summary": "This reference clip demonstrates the step-by-step 1D Fourier synthesis of a square wave, showing the progressive addition of odd harmonic epicycles from 2 to 49 circles as the output wave on the right deforms from a sine wave into a sharp square wave with Gibbs phenomenon, accompanied by the evolving Fourier series formula.",
+  "reference_url": "https://x.com/Miguel07Code/status/2103626582896091611",
+  "sample_id": "C2VC-0429",
+  "subjects": [
+    "Graphic"
+  ],
+  "subtypes": [
+    "Concept & Mechanism Explanation"
+  ],
+  "task": "v2v",
+  "task_id": "C2VC-0429-v2v",
+  "video_categories": [
+    "Explainer Motion Graphics"
+  ]
+}

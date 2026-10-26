@@ -1,0 +1,151 @@
+{
+  "construction_complexity": "C2",
+  "dependency_span": "S3",
+  "dynamic_complexity": "D2",
+  "events": [
+    "Falling raindrop reflection",
+    "Droplet aerodynamic blueprint",
+    "Pond ripple impact",
+    "Xylem transport schematic",
+    "Tree sap ascent",
+    "Leaf stomata blueprint",
+    "Transpiration and cloud formation",
+    "Thundercloud electrical charge blueprint",
+    "Lightning storm and rainfall",
+    "River drainage basin schematic",
+    "Aerial river outflow to ocean",
+    "Ocean depth and solar schematic",
+    "Sea surface evaporation",
+    "Molecular evaporation blueprint",
+    "Cloud condensation zoom",
+    "Single droplet blueprint finale"
+  ],
+  "global_description": "A dual-aesthetic motion graphic tracking the journey of a single water droplet through the complete hydrological cycle, alternating between textured pictorial illustrations and technical blueprint schematics.",
+  "keyclip_end_s": 16.5,
+  "keyclip_start_s": 12.0,
+  "motion_types": [
+    "Translation",
+    "Scale",
+    "Reveal",
+    "Deformation",
+    "State Update",
+    "Viewport Motion"
+  ],
+  "prompt": "An educational motion graphic animation illustrating the continuous journey of water through nature, alternating between warm-toned hand-drawn illustrations and intricate navy blueprint schematics, matching the dynamic rhythm and visual styling demonstrated in the reference clip.\n\nBefore the reference clip, the animation establishes the droplet's initial descent and plant uptake. A falling raindrop reflecting an upside-down landscape transitions into an aerodynamic droplet blueprint, followed by a raindrop splash producing ripples in a lily pond. These ripples dissolve into a blueprint cross-section of tree xylem vessels that convey fluids upward. The fluid ascends into an illustrated tree trunk and canopy, followed by a blueprint revealing leaf vein distribution and stomatal pore regulation.\n\nThe animation then reproduces the sequence seen in the reference clip: an illustrated close-up of a leaf expelling moisture through dashed vertical arrows pulls back to reveal an expansive forest canopy. Above the trees, moisture condenses into a white cumulus cloud that rapidly builds vertically, its base darkening with falling rain. The screen transitions into a dark blue technical blueprint schematic of the cumulonimbus cloud, complete with detailed charge stratification (+ and - symbols), updraft vector arrows, rain shafts, and an electric field graph at the bottom. A sharp blueprint lightning bolt strikes downward toward a tree symbol, immediately cutting into a vivid pictorial illustration of a stormy landscape where a bright lightning strike illuminates a dark gray sky and hits a tree, with rain lashing across the field.\n\nFollowing the reference clip, a single droplet falling from the storm is tracked downward, dissolving into a blueprint watershed drainage network where glowing nodes pulse along converging stream channels. The camera transitions to a topographical pictorial map tracking the river as it empties into the ocean. An ocean blueprint highlights subsurface currents and solar exposure, leading to an illustrated seascape where evaporation arrows lift from the water at dawn. A molecular blueprint shows liquid H2O breaking into vapor under solar radiation, and the camera zooms through misty clouds to isolate a newly coalesced spherical droplet, finishing on a blueprint display centered around the droplet labeled 'one drop'.",
+  "qa": [
+    {
+      "dimension": "Content.Text",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the concluding blueprint display include the text 'one drop'?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Content.Information",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the blueprint schematic of the storm cloud indicate electrical charge distribution using positive (+) and negative (-) symbols?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Look",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the technical blueprint shown on a dark navy background?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.Frame",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the electric field potential graph positioned in the lower portion of the storm cloud blueprint frame?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.ColorGrading",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the visual presentation alternate between a warm pictorial color palette and a dark navy blueprint color scheme?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Logical",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the molecular blueprint show water molecules breaking away into vapor under solar radiation?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Motion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is there a water droplet shown visibly descending along its trajectory?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Interaction",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does a falling water droplet impact a pond surface to generate expanding concentric ripples?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Transformation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Do the concentric water ripples transition into a blueprint of tree xylem vessels?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.ViewportMotion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the camera zoom into the cloud formation to isolate a newly condensed spherical droplet?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.TemporalRelation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the blueprint lightning discharge occur immediately before cutting to a pictorial lightning strike in a stormy landscape?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Aesthetics.Style",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the animation alternate between a textured hand-drawn pictorial illustration style and a technical blueprint schematic style?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "TranspirationToStormSequence",
+      "question": "Does the sequence begin with leaf moisture transpiration zooming out over the forest canopy before coalescing into a storm cloud that begins raining?",
+      "section": "ReferenceClipSpecific"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "BlueprintToPictorialStrikeTransition",
+      "question": "Does the blueprint lightning discharge cut immediately to a full-screen pictorial lightning bolt striking a lone tree in a rain-swept field?",
+      "section": "ReferenceClipSpecific"
+    }
+  ],
+  "reference_clip_summary": "The reference clip demonstrates the alternating transition rhythm between pictorial illustration and scientific blueprint: starting with leaf transpiration into a storm cloud, transitioning to a blueprint cumulonimbus with charge dynamics and lightning discharge, and culminating in a pictorial lightning strike over a rural landscape.",
+  "reference_url": "https://x.com/aollivier82/status/2102498589259821559",
+  "sample_id": "C2VC-0234",
+  "subjects": [
+    "Graphic"
+  ],
+  "subtypes": [
+    "Concept & Mechanism Explanation",
+    "Structural & Relational Infographic"
+  ],
+  "task": "v2v",
+  "task_id": "C2VC-0234-v2v",
+  "video_categories": [
+    "Explainer Motion Graphics",
+    "Data & Infographic Animation"
+  ]
+}

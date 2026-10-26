@@ -1,0 +1,489 @@
+{
+  "dataset": "Code2Video-Compass public 180-task preview",
+  "dataset_license": "CC BY-NC 4.0",
+  "answer_author": "Codex, current conversation, tool-assisted iterative code generation",
+  "exact_model_version": "not independently available",
+  "official_model_outputs": false,
+  "official_scores": null,
+  "answer_count_per_task": 1,
+  "format": "1280x720 H.264 24fps, no audio",
+  "cases": [
+    {
+      "task_id": "C2VC-0234-v2v",
+      "reference": {
+        "status": "downloaded",
+        "bytes": 33744370,
+        "media_url": "https://video.twimg.com/amplify_video/2102498362331201537/vid/avc1/1080x1920/YJVbJ8i5lHe0lA1P.mp4?tag=29",
+        "retrieval": "public FxTwitter metadata → original media CDN",
+        "source_url": "https://x.com/aollivier82/status/2102498589259821559"
+      },
+      "answer": {
+        "author": "Codex, current conversation, tool-assisted iterative code generation",
+        "generated_by_current_session": true,
+        "source_code": [
+          "../../animation.html",
+          "../../animation.js"
+        ],
+        "artifact": "answer_codex.mp4",
+        "source_video_is_answer": false,
+        "evaluation_status": "not scored; execution verified only"
+      }
+    },
+    {
+      "task_id": "C2VC-0504-i2v",
+      "reference": {
+        "status": "downloaded",
+        "bytes": 5572271,
+        "media_url": "https://video.twimg.com/amplify_video/2102853041246347264/vid/avc1/1080x1080/gHD5YPPHdPJDh8GO.mp4?tag=29",
+        "retrieval": "public FxTwitter metadata → original media CDN",
+        "source_url": "https://x.com/Ror_Fly/status/2102853258582880547"
+      },
+      "answer": {
+        "author": "Codex, current conversation, tool-assisted iterative code generation",
+        "generated_by_current_session": true,
+        "source_code": [
+          "../../animation.html",
+          "../../animation.js"
+        ],
+        "artifact": "answer_codex.mp4",
+        "source_video_is_answer": false,
+        "evaluation_status": "not scored; execution verified only"
+      }
+    },
+    {
+      "task_id": "C2VC-0429-v2v",
+      "reference": {
+        "status": "downloaded",
+        "bytes": 11050314,
+        "media_url": "https://video.twimg.com/amplify_video/2103625977213374464/vid/avc1/1080x1920/S7xljFvdJTus4zND.mp4?tag=29",
+        "retrieval": "public FxTwitter metadata → original media CDN",
+        "source_url": "https://x.com/Miguel07Code/status/2103626582896091611"
+      },
+      "answer": {
+        "author": "Codex, current conversation, tool-assisted iterative code generation",
+        "generated_by_current_session": true,
+        "source_code": [
+          "../../animation.html",
+          "../../animation.js"
+        ],
+        "artifact": "answer_codex.mp4",
+        "source_video_is_answer": false,
+        "evaluation_status": "not scored; execution verified only"
+      }
+    },
+    {
+      "task_id": "C2VC-0035-i2v",
+      "reference": {
+        "status": "downloaded",
+        "bytes": 9793990,
+        "media_url": "https://sns-video-v2.xhscdn.com/stream/1/110/258/01eabbbdcd16486c01037001a0ed60b19e_258.mp4?sign=a04e28454486ae65ce66ef0111db7dc3&t=6ae36ec6",
+        "retrieval": "Public source HTML masterUrl, normal browser User-Agent, no login/cookies",
+        "source_url": "https://www.rednote.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search"
+      },
+      "answer": {
+        "author": "Codex, current conversation, tool-assisted iterative code generation",
+        "generated_by_current_session": true,
+        "source_code": [
+          "../../animation.html",
+          "../../animation.js"
+        ],
+        "artifact": "answer_codex.mp4",
+        "source_video_is_answer": false,
+        "evaluation_status": "not scored; execution verified only"
+      }
+    },
+    {
+      "task_id": "C2VC-0410-v2v",
+      "reference": {
+        "status": "downloaded",
+        "bytes": 14658149,
+        "media_url": "https://video.twimg.com/amplify_video/2104020130975911936/vid/avc1/3840x1920/5i3fZ6McI7IW4sH6.mp4?tag=29",
+        "retrieval": "public FxTwitter metadata → original media CDN",
+        "source_url": "https://x.com/DJAdkison/status/2104020177478394122"
+      },
+      "answer": {
+        "author": "Codex, current conversation, tool-assisted iterative code generation",
+        "generated_by_current_session": true,
+        "source_code": [
+          "../../animation.html",
+          "../../animation.js"
+        ],
+        "artifact": "answer_codex.mp4",
+        "source_video_is_answer": false,
+        "evaluation_status": "not scored; execution verified only"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "animation.html",
+      "bytes": 872,
+      "sha256": "20041b784939c2f4af7994a2f7e61471b9073bfdc062f4cd78e2a6145da9951e"
+    },
+    {
+      "path": "animation.js",
+      "bytes": 30126,
+      "sha256": "d8d9436813c97f16fa21ea9fab29ec77e9520ef6ecef1989377e09152e78cc79"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/answer_codex.mp4",
+      "bytes": 702872,
+      "sha256": "04ae2a5dae92cfef80a095ede2883e7c6b3fa70577a0dc730139e9718c260983"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/answer_metadata.json",
+      "bytes": 344,
+      "sha256": "9c5a575a078d2f31588e08dfb6fd98be94336a45a006fe962289ba9844440b13"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/answer_poster.jpg",
+      "bytes": 62510,
+      "sha256": "38c766a44d8edbd2e5296e1d6fd35374750807b1b71be9e1f8c9087ad63d7ec2"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/answer_source.html",
+      "bytes": 174,
+      "sha256": "abdf1f1be9fa8639d74b03e73a6934f0401ce5573b54d4dd17297d80864ff7d0"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/download.log",
+      "bytes": 1410,
+      "sha256": "8e5f63950ffe2a6e17d0469e87ea7ccd52113511ccbf3624c593a4b88830a5e7"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/prompt.txt",
+      "bytes": 2538,
+      "sha256": "536773336aa53a27786b3759448e6a1864087706f5581947d98b65887c4d73ba"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/reference.png",
+      "bytes": 519538,
+      "sha256": "9b70adff8850129968ae41f365d2567198a4cf6c630272b386f8f7ceefa82d3e"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/reference_full.mp4",
+      "bytes": 9793990,
+      "sha256": "ef760d574705b0659915ee5bf427fc1f811746a82b391bfb77d4e7747d01075b"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/reference_preview.jpg",
+      "bytes": 60758,
+      "sha256": "afce9d020551914f0b38a70d8447bc341988df25f850af6f1053cf69329f8e2f"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/reference_status.json",
+      "bytes": 463,
+      "sha256": "5e63b3b048300380f4cc3182187c59f4c4bf822aaa3dbb746d243bd4912bbd38"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/retry_status.json",
+      "bytes": 1313,
+      "sha256": "ad8001fa446d3c2d6ecbb8386154c616a8ebcef0acf0faef0bea7fe1f084ecfc"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/source_page.html",
+      "bytes": 67021,
+      "sha256": "c0e5b672e515c9dd54d9370cd3b61c31452056005da35d779643427068f561c9"
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/task.json",
+      "bytes": 8238,
+      "sha256": "2dca61c39b96e68bf5515c82d03b9b1f109b3ff2b1bf1602ad8e0e9567e6848c"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_codex.mp4",
+      "bytes": 2243605,
+      "sha256": "4367377bc88efd1db21c36cd2f02b25f911e27dc2250c0a0b402d78bb7f73290"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_metadata.json",
+      "bytes": 344,
+      "sha256": "9c5a575a078d2f31588e08dfb6fd98be94336a45a006fe962289ba9844440b13"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_poster.jpg",
+      "bytes": 83035,
+      "sha256": "4a71a141c8189b187c9823b41c101e652565a15446c22e319e692d5a91b72ec1"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_source.html",
+      "bytes": 174,
+      "sha256": "3a7a9607ede6f8567a67d99531ed6d715b1cf02cd22d257b9abb21c3e18dfcc9"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/prompt.txt",
+      "bytes": 2374,
+      "sha256": "c5974677159f9764b6a24608a3534426409376610202681a85108ab0f5575a80"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference.mp4",
+      "bytes": 8237020,
+      "sha256": "026014fe44e17181bb2dff06626eac260e31838ce8045da00524d59860ad96b6"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference_full.mp4",
+      "bytes": 33744370,
+      "sha256": "cb21aa9a4a6fb830f3c875794692f5a8c91e369b3489d76660e6e2f1e96a981d"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference_preview.jpg",
+      "bytes": 63257,
+      "sha256": "c0475f67dc4a8f95bcad6a76b26d801768a33820fcbae36734eae7b5e8d7b71d"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference_status.json",
+      "bytes": 317,
+      "sha256": "d863407671184b601731f1ade1d25e4aaeb7540afec4c61c46c0a6755fe57db4"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/source_metadata.json",
+      "bytes": 8506,
+      "sha256": "2acfe2fdd1e57e27547756f472fc1b5b0222fa4b13c30080f4677560c10304d9"
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/task.json",
+      "bytes": 8196,
+      "sha256": "8083ce7c672cbd68d40659c16136b152f5bec2b2d3562187a1447b71f8c45ba2"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_codex.mp4",
+      "bytes": 730686,
+      "sha256": "e5e03839420f199a6f57362fec58be1bfa1ce9895818cad61f44bea54cbcf22d"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_metadata.json",
+      "bytes": 344,
+      "sha256": "9c5a575a078d2f31588e08dfb6fd98be94336a45a006fe962289ba9844440b13"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_poster.jpg",
+      "bytes": 110670,
+      "sha256": "36bc784af8bb6a6a86cea4a2dd4b946af6108368a2256fc4a6e7efdfe2532d8d"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_source.html",
+      "bytes": 174,
+      "sha256": "9db9b53892d77775fc34cd1d1ea4ea6d87e3d2c1782102a6cadef39e6632d670"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/prompt.txt",
+      "bytes": 2075,
+      "sha256": "f9a7ff00b8041c5aff385ec44dd8cc49f939f6fcebb2d3a0624168528a913280"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference.mp4",
+      "bytes": 1893457,
+      "sha256": "402de67cd854bf555c50c730455fd1ec07e9870357bdad167db123f90263d00e"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference_full.mp4",
+      "bytes": 14658149,
+      "sha256": "5cb9baea1d6784d7a67ce36472914d24bc45de2777b57589deaf7b1ea8584dad"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference_preview.jpg",
+      "bytes": 21644,
+      "sha256": "2feedf1c7d01a829f66d1d3d423fff4b38579b5d0d347b715d8cfc813018fddf"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference_status.json",
+      "bytes": 315,
+      "sha256": "f486710ec8abc19a278d3e3005f3a17eb69af4b99264867037870d736716f2a3"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/source_metadata.json",
+      "bytes": 9740,
+      "sha256": "88cf846ec8e8dd66140eed906f5c7289b769236a25c738a16ce197d5e07fc9b0"
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/task.json",
+      "bytes": 6769,
+      "sha256": "638540d29a49f4ebd2025c80e1b2b38791f688f0dd0e4d5c5b959d46df8a3e4d"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_codex.mp4",
+      "bytes": 4205346,
+      "sha256": "f7195aa8a679601e099a8f770bfa3158de9ba8fde9fb963f578c833a5c8a553f"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_metadata.json",
+      "bytes": 344,
+      "sha256": "9c5a575a078d2f31588e08dfb6fd98be94336a45a006fe962289ba9844440b13"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_poster.jpg",
+      "bytes": 97160,
+      "sha256": "4d2f695c02c35e8232afdceb68cf247fca80ee0386c02851c5a8baaf01f0275c"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_source.html",
+      "bytes": 174,
+      "sha256": "34542f269ad5424db71c15cd8b069355088d98b9173189e055d79cfc815223ec"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/prompt.txt",
+      "bytes": 2401,
+      "sha256": "f629a653f74d08a3a9239ad400481855a8914cb90d2379a4ee24b25529d8da07"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference.mp4",
+      "bytes": 1018737,
+      "sha256": "6cfd8d6d363deec8de1abb15a7e28f36960e3e0a083de3572a213ce695733a40"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference_full.mp4",
+      "bytes": 11050314,
+      "sha256": "7ba1f8c9ca41a7e670dbf9a048bb0c2573322cf18ffe8288b517c29d44e52c35"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference_preview.jpg",
+      "bytes": 24700,
+      "sha256": "f8768f457fd026a7cecbb06e6959d7f1abc8bbce0636d4c5516fa0d35ed84aac"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference_status.json",
+      "bytes": 318,
+      "sha256": "05f95a05ffffdef474bef97c59f4ade42885f04d234c60cd0ab0e029bcfa6c26"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/source_metadata.json",
+      "bytes": 9335,
+      "sha256": "b75c37469050dd823c7a88cb67098cf58062a8e9a9e7a4d0b3526122f17399c4"
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/task.json",
+      "bytes": 7151,
+      "sha256": "eff804cba4f80baad7a2992264551eafbad64e281bc9a85d46e7a06418bc8f09"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_codex.mp4",
+      "bytes": 1295421,
+      "sha256": "51a3e49137b1de100262a6f06eaf76728c84d21dd7e0ac99787a7e14d3914f8a"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_metadata.json",
+      "bytes": 344,
+      "sha256": "9c5a575a078d2f31588e08dfb6fd98be94336a45a006fe962289ba9844440b13"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_poster.jpg",
+      "bytes": 66252,
+      "sha256": "eb8ece92a4fe9c01bffa17028063710bbe5a5c05d99ad551d654cc4631c5a83a"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_source.html",
+      "bytes": 174,
+      "sha256": "2286880e74ebb178002fb50d21a5895c086155bd6f3d9daba21b76436ee170a2"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/prompt.txt",
+      "bytes": 2086,
+      "sha256": "119f4ea30ff4d3cd8bd8fdcd5788183a7a7355274acafe40692db41ae013a188"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/reference.png",
+      "bytes": 434008,
+      "sha256": "6f6a78a559f8807ea5bc06e2e6c1a4ad287dfdb5fe92dc5898ab73c3190b5c61"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/reference_full.mp4",
+      "bytes": 5572271,
+      "sha256": "f73f0ab34e4ec8abd77de98241ae41305d6f3699910f918f7ff688a548f105ec"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/reference_preview.jpg",
+      "bytes": 38928,
+      "sha256": "9ca1e48d815f15eb1895b24c42d0f3052f6f54a2a11e84bcb8dd7e551e7d6cda"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/reference_status.json",
+      "bytes": 312,
+      "sha256": "f3cfd21adb107ec254fe26b6571e272f51cb5e2e9412cfd1b17509b69350248b"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/source_metadata.json",
+      "bytes": 9283,
+      "sha256": "65b13345814e38b760fe2509fb95d08ddc22814846ca8c0a5d1038fa92cbb194"
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/task.json",
+      "bytes": 7259,
+      "sha256": "cc1f3a43f39aecacac072a78eec007b1670b5514b8eb7d8687bf15c2a0d49489"
+    },
+    {
+      "path": "download_sources.py",
+      "bytes": 2546,
+      "sha256": "376751244ced351d0c7bbe248f9b610a78af6cc1aae1c2fc430db2184f786aaf"
+    },
+    {
+      "path": "index.html",
+      "bytes": 20722,
+      "sha256": "60c7a8be87fb179b04801b5370d8ecf9aabbd78bcf907268c655426e0c23e077"
+    },
+    {
+      "path": "official_site_case-data.js",
+      "bytes": 101316,
+      "sha256": "a0a832a37ce6f9625eee56b1379c03009654eb76a50dab5c69462b4f403ab65d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4241,
+      "sha256": "3d6d6ae16b4fafa43f49d1f7fae74361ca91606154a561015b465d60454190b5"
+    },
+    {
+      "path": "render.py",
+      "bytes": 2393,
+      "sha256": "4b248846bb7325ad9734219366bb70343e79e3f88892542b05c76eed219116e7"
+    },
+    {
+      "path": "tasks.json",
+      "bytes": 38991,
+      "sha256": "2b22aacd2f8fa4768794c2b52a783ae1677fc720476736807edb263f2956c788"
+    },
+    {
+      "path": "verification/C2VC-0035-i2v.png",
+      "bytes": 72662,
+      "sha256": "1bd584a7556814b5c041d955460e73ce1011161a755ca4d192170e47b55ed254"
+    },
+    {
+      "path": "verification/C2VC-0234-v2v.png",
+      "bytes": 41348,
+      "sha256": "4fe89fe8da853291475ce34995852c40ff05188ac89c12aab9acd82d67d3cf06"
+    },
+    {
+      "path": "verification/C2VC-0410-v2v.png",
+      "bytes": 72849,
+      "sha256": "88a270d37e0eb9711e8671395a57ddb846dbbf3ce88e40e6ea9195913c3d591d"
+    },
+    {
+      "path": "verification/C2VC-0429-v2v.png",
+      "bytes": 68072,
+      "sha256": "5477f30282758e3fde9b97ca8e6bcb4e65e7d44ad761c2a38996915f95bf7aa1"
+    },
+    {
+      "path": "verification/C2VC-0504-i2v.png",
+      "bytes": 74308,
+      "sha256": "f04c89386e99e612df3e83c6f02925089d856e505a25afba7cc0a055a5b0e427"
+    },
+    {
+      "path": "verification/report.json",
+      "bytes": 4699,
+      "sha256": "e7ecb3d9670e1b116b306c013ecf7ace86e9f232854e27e559022d7211642634"
+    },
+    {
+      "path": "verification/showcase.png",
+      "bytes": 860267,
+      "sha256": "300b0fb4c883450675b6cd6923a54ca2acfe225c3d10e1a0412f909609a0eb3d"
+    },
+    {
+      "path": "verification/showcase_mobile.png",
+      "bytes": 834353,
+      "sha256": "b879c2f5e6a6230dbc61bfa0b53b8647cf332fad23508a1364c2a9a2cdf00c55"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 5697,
+      "sha256": "af8cb27e764a763021f08c69054dc5282261bd1f63cfe49058397c02f019956f"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[generic] Extracting URL: https://www.rednote.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFF...sec_source=pc_search
+[generic] 6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs=&xsec_source=pc_search: Downloading webpage
+[redirect] Following redirect to https://www.rednote.com/login?redirectPath=http%3A%2F%2Fwww.rednote.com%2Fexplore%2F6abbbe8f000000001802acb2%3Fxsec_token%3DABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%253D%26xsec_source%3Dpc_search%26exSource%3Dnull
+[generic] Extracting URL: https://www.rednote.com/login?redirectPath=http%3A%2F%2Fwww.rednote.com%2Fexplore%2F6abbbe8f00000...ch%26exSource%3Dnull
+[generic] login?redirectPath=http://www.rednote: Downloading webpage
+[generic] login?redirectPath=http://www.rednote: Extracting information
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         Run "yt-dlp --update" or "yt-dlp -U" to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rednote.com/login?redirectPath=http%3A%2F%2Fwww.rednote.com%2Fexplore%2F6abbbe8f000000001802acb2%3Fxsec_token%3DABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%253D%26xsec_source%3Dpc_search%26exSource%3Dnull

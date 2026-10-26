@@ -1,0 +1,145 @@
+{
+  "construction_complexity": "C2",
+  "dependency_span": "S2",
+  "dynamic_complexity": "D2",
+  "events": [
+    "Tang and Qing Dougong scale comparison",
+    "Foguang Temple cantilever overhang analysis",
+    "Step-by-step Dougong component assembly",
+    "Structural load transmission and lever mechanism",
+    "Early historical evidence and search for Tang timber structures",
+    "Liang Sicheng and Lin Huiyin discover Foguang Temple",
+    "Liang Sicheng three-period architectural classification",
+    "Structural shift from load-bearing lever to decorative bracket",
+    "Eleven-building evolutionary timeline and proportion chart",
+    "Comparison to classical Greek order and final summary"
+  ],
+  "global_description": "An infographic architectural animation explaining the structural mechanics, component assembly, and historical evolution of Chinese traditional Dougong brackets from the Tang to Qing dynasties using architectural line drawings, diagrams, and historical timelines.",
+  "keyframe_timestamp_s": 52.5,
+  "motion_types": [
+    "Translation",
+    "Scale",
+    "Reveal",
+    "State Update",
+    "Layout Transformation",
+    "Viewport Motion"
+  ],
+  "prompt": "Create an architectural motion graphics video explaining the structural mechanism and historical evolution of Chinese traditional Dougong brackets, designed with a vintage sepia-toned parchment background and technical black line illustrations. The video begins by showing a cross-sectional technical drawing of the Tang Dynasty bracket from the East Main Hall of Foguang Temple, comparing its scale side-by-side with a Qing Dynasty bracket from the Forbidden City's Wenyuange. Dimension brackets highlight their dramatic size difference: the Tang bracket accounts for 1/2 of column height, while the Qing bracket is reduced to 1/5. The animation then analyzes the cantilever mechanics of Foguang Temple's 3.7-meter eave overhang, demonstrating that the Dougong carries the outer purlin nearly 2 meters beyond what simple rafters can support. Next, an isometric step-by-step assembly animates the components: the capital block '斗', transverse arm '拱', secondary blocks, successive outward layers ('跳'), and the diagonal cantilever timber '昂'. The video then settles into the exact visual state shown in the reference image: a detailed side-section schematic of the Tang Dougong at Foguang Temple (dated 857 on the upper dynasty timeline bar). A bold red lever line traces diagonally through the Ang, labeled '挑檐' at the elevated roof eave end, pivoting over a fulcrum labeled '支点', with the interior tail pinned firmly by the roof beam labeled '梁压昂尾', accompanied by the explanatory text '昂 斜置的长木' and bottom citations from the Yingzao Fashi. Following this explanation of the lever mechanism, the video moves chronologically to display early precedents in Han stone pillars and Northern Dynasty cave temples. It narrates Liang Sicheng and Lin Huiyin's 1937 field discovery in Mount Wutai where temple beam inscriptions verified the 857 AD construction date. Next, a three-stage stylistic chart compares '豪劲', '醇和', and '羁直' periods. Sectional diagrams of Qing construction illustrate how the beam head directly took over the load, flattening the Ang into a decorative carving and turning Dougong into dense decorative trim under the eaves. Isometric diagrams then explain the modular proportion systems ('材' in Song and '斗口' in Qing). A multi-building comparative chart plots eleven historical structures along a timeline, tracking the bracket-to-column ratio dropping from 1/2 to 1/5, before concluding with a comparison between the Chinese Dougong system and the Greek Doric order.",
+  "qa": [
+    {
+      "dimension": "Content.Text",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the label '梁压昂尾' displayed during the structural explanation of the bracket?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Content.Information",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the visual comparison indicate that the Tang bracket equals 1/2 of column height while the Qing bracket equals 1/5?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Look",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Are the architectural diagrams shown as line drawings?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Quantity",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the evolutionary timeline chart compare eleven historical buildings?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.Frame",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is a horizontal historical dynasty timeline bar positioned along the top edge of the frame?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.ColorGrading",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the video feature an aged, warm sepia parchment paper background tone?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Spatial",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the Dougong bracket cluster shown positioned directly atop the vertical timber column?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Logical",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the visual comparison juxtapose the Chinese bracket system with classical Greek architectural orders?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Motion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the bracket cluster assemble through sequential placement of its individual wooden components?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Interaction",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the structural diagram illustrate the interior roof beam pinning down the tail end of the Ang lever timber?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.TemporalRelation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the isometric assembly sequence occur prior to the cross-sectional lever force diagram?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Aesthetics.Style",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the animation maintain an architectural technical illustration style?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "KeyframeLeverState",
+      "question": "Does the video present the cross-sectional state showing the diagonal Ang timber highlighted in red with the label '梁压昂尾' matching the keyframe?",
+      "section": "KeyframeSpecific"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "TopTimelineMarker",
+      "question": "Does the timeline bar at the top feature a red triangle marker indicating the year 857 under the Sui-Tang dynasty section?",
+      "section": "KeyframeSpecific"
+    }
+  ],
+  "reference_frame_summary": "The frame shows a precise cross-sectional architectural drawing of a Tang Dynasty Dougong bracket set with red force and lever annotations highlighting the slanted 'Ang' cantilever beam as a structural lever.",
+  "reference_url": "https://www.rednote.com/explore/6abbbe8f000000001802acb2?xsec_token=ABf2jkYZmompyInxr2-T9HtMThbFFqf9J-RAxrMvA_pVs%3D&xsec_source=pc_search",
+  "sample_id": "C2VC-0035",
+  "subjects": [
+    "Graphic",
+    "Object"
+  ],
+  "subtypes": [
+    "Concept & Mechanism Explanation",
+    "Structural & Relational Infographic"
+  ],
+  "task": "i2v",
+  "task_id": "C2VC-0035-i2v",
+  "video_categories": [
+    "Explainer Motion Graphics",
+    "Data & Infographic Animation"
+  ]
+}

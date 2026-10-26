@@ -1,0 +1,212 @@
+{
+  "media": [
+    {
+      "path": "cases/C2VC-0035-i2v/answer_codex.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 60.0,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/reference_full.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 138.5,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_codex.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 48.0,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 4.5,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/reference_full.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 32.042667,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_codex.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 36.0,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference.mp4",
+      "width": 3840,
+      "height": 1920,
+      "duration": 4.966667,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference_full.mp4",
+      "width": 3840,
+      "height": 1920,
+      "duration": 31.254059,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_codex.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 53.0,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 7.5,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference_full.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 42.048,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_codex.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 52.0,
+      "fps": "24/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/reference_full.mp4",
+      "width": 1080,
+      "height": 1080,
+      "duration": 30.0,
+      "fps": "30/1",
+      "codec": "h264",
+      "decoded": true,
+      "errors": ""
+    }
+  ],
+  "browser_errors": [],
+  "missing_links": [],
+  "browser_playback": [
+    {
+      "path": "cases/C2VC-0234-v2v/reference.mp4",
+      "duration": 4.5,
+      "width": 1080,
+      "height": 1920,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0234-v2v/answer_codex.mp4",
+      "duration": 48,
+      "width": 1280,
+      "height": 720,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0504-i2v/answer_codex.mp4",
+      "duration": 52,
+      "width": 1280,
+      "height": 720,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/reference.mp4",
+      "duration": 7.5,
+      "width": 1080,
+      "height": 1920,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0429-v2v/answer_codex.mp4",
+      "duration": 53,
+      "width": 1280,
+      "height": 720,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0035-i2v/answer_codex.mp4",
+      "duration": 60,
+      "width": 1280,
+      "height": 720,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/reference.mp4",
+      "duration": 4.966667,
+      "width": 3840,
+      "height": 1920,
+      "played": true,
+      "error": null
+    },
+    {
+      "path": "cases/C2VC-0410-v2v/answer_codex.mp4",
+      "duration": 36,
+      "width": 1280,
+      "height": 720,
+      "played": true,
+      "error": null
+    }
+  ],
+  "cards": 5,
+  "prompt_lengths": [
+    2368,
+    2079,
+    2391,
+    2484,
+    2069
+  ],
+  "mobile_no_overflow": true,
+  "passed": true
+}

@@ -1,0 +1,140 @@
+{
+  "construction_complexity": "C2",
+  "dependency_span": "S2",
+  "dynamic_complexity": "D2",
+  "events": [
+    "Title animation",
+    "Glass setup and recipe UI appear",
+    "Step 1: Adding ice cubes",
+    "Step 2: Pouring London dry gin",
+    "Step 3: Pouring Campari",
+    "Step 4: Pouring sweet vermouth",
+    "Step 5: Stirring cocktail with bar spoon",
+    "Step 6: Expressing orange peel garnish",
+    "Final presentation and recipe recap"
+  ],
+  "global_description": "A clean, 2D illustrated motion graphic presents a step-by-step procedural recipe for making a Negroni cocktail, sequencing through glass preparation, three measured pours, stirring, and garnishing alongside coordinated UI cards and a bottom timeline.",
+  "keyframe_timestamp_s": 13.5,
+  "motion_types": [
+    "Translation",
+    "Rotation",
+    "Reveal",
+    "State Update",
+    "Scale"
+  ],
+  "prompt": "An instructional 2D motion graphic with clean hand-drawn line art and a warm paper-like background demonstrates a Negroni cocktail recipe, matching the layout, typography, and visual assets shown in the reference image. The video starts before the reference scene: the title 'NEGRONI' drops into the top center letter by letter in bold coral letters, followed by 'a 30 second recipe' transitioning into 'equal parts · stirred · on the rocks'. The tumbler glass outline animates into existence on the left, a bottom stepper displays six stages ('ICE', 'GIN', 'CAMPARI', 'VERMOUTH', 'STIR', 'PEEL'), and a rounded recipe card appears on the right. For Step 1, three ice cubes fall into the glass as the card tracks 'FILL ICE' with a 3-part progress bar before node 1 receives a checkmark. In Step 2, a 'GIN london dry' bottle enters, tilts, and pours clear liquid up to the '1 oz' line while the card monitors '1 OZ GIN' to '1.0 / 1 oz', after which node 2 checks off.\n\nThe animation then progresses into the state depicted in the reference image for Step 3: the card shows 'STEP 3 OF 6', '1 OZ', 'CAMPARI', 'the bitter one · 30 ml', and an active progress bar at '0.4 / 1 oz'. The red Campari bottle tilts from the upper left, pouring a red liquid stream into the glass, raising the liquid level past the ice cubes toward the '2 oz' guide line. The pour completes, the bottle withdraws, and node 3 checks off. Next, Step 4 shows a dark 'ROSSO vermouth' bottle pouring sweet vermouth up to the '3 oz' level while the card tracks '1 OZ SWEET VERMOUTH', turning the cocktail deep ruby. In Step 5, a bar spoon enters and swirls the mixture side to side while a card counts down '20 sec STIR until nice and cold' before retracting. In Step 6, an orange peel twist descends, sprays tiny yellow oil droplets, and rests over the ice as the card marks 'ORANGE PEEL express the oils, drop it in'. The sequence concludes with all six bottom nodes checked and the right card displaying 'THAT'S A NEGRONI!', 'CIN CIN!', '1:1:1', and 'gin · campari · sweet vermouth' beside the completed drink.",
+  "qa": [
+    {
+      "dimension": "Content.Text",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the cocktail title displayed as 'NEGRONI' with the subtitle 'equal parts · stirred · on the rocks'?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Content.Information",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the bottom timeline display the six recipe steps labeled 'ICE', 'GIN', 'CAMPARI', 'VERMOUTH', 'STIR', and 'PEEL'?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Look",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the Campari bottle red?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Attribute.Quantity",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Do exactly three ice cubes drop into the rocks glass during Step 1?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Cinematography.Frame",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the rocks glass positioned on the left side of the frame while the recipe card is situated on the right side?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Spatial",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Is the six-step horizontal timeline positioned below the glass and the recipe card along the bottom of the frame?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Relations.Logical",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does each completed step correspond to its matching node on the bottom timeline changing into a checkmark?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Motion",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does a bar spoon swirl inside the glass with side-to-side or oscillating motion during Step 5?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Interaction",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the orange peel release or spray droplet particles over the glass during Step 6?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.Transformation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the recipe card dynamically update its displayed text and step number as each new stage begins?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Dynamics.TemporalRelation",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the Campari pouring step take place after the gin is poured and before the sweet vermouth is poured?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": "Aesthetics.Style",
+      "expected_answer": "Yes",
+      "name": null,
+      "question": "Does the video maintain a 2D hand-drawn line-art motion graphic style throughout the animation?",
+      "section": "SharedChecklist"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "KeyframeStateRealization",
+      "question": "Does the generated scene matching the reference show the recipe card at Step 3 of 6?",
+      "section": "KeyframeSpecific"
+    },
+    {
+      "dimension": null,
+      "expected_answer": "Yes",
+      "name": "PreKeyframeProgression",
+      "question": "Does the video show ice dropping into the glass before the gin is poured?",
+      "section": "KeyframeSpecific"
+    }
+  ],
+  "reference_frame_summary": "The keyframe captures Step 3 in progress, showing the tilted Campari bottle pouring red liqueur into the rocks glass over ice cubes, the 2 oz guide line, the active step recipe card on the right, and the bottom progression bar.",
+  "reference_url": "https://x.com/Ror_Fly/status/2102853258582880547",
+  "sample_id": "C2VC-0504",
+  "subjects": [
+    "Graphic"
+  ],
+  "subtypes": [
+    "Process & Procedure Explanation"
+  ],
+  "task": "i2v",
+  "task_id": "C2VC-0504-i2v",
+  "video_categories": [
+    "Explainer Motion Graphics"
+  ]
+}

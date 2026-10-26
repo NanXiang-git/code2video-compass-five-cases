@@ -1,0 +1,11 @@
+{
+  "author": "Codex, current conversation, tool-assisted iterative code generation",
+  "generated_by_current_session": true,
+  "source_code": [
+    "../../animation.html",
+    "../../animation.js"
+  ],
+  "artifact": "answer_codex.mp4",
+  "source_video_is_answer": false,
+  "evaluation_status": "not scored; execution verified only"
+}
